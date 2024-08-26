@@ -735,6 +735,8 @@ class EthereumNetwork(Enum):
     ZENIQ = 383414847825
     PDC_MAINNET = 666301171999
     MOLEREUM_NETWORK = 6022140761023
+    SHAPE = 360
+    SHAPE_SEPOLIA_TESTNET = 11011
 
     @classmethod
     def _missing_(cls, value):
